@@ -47,7 +47,7 @@ UNIQUE KEY (student_id));
 -- for unique key, null values can be inserted
 INSERT INTO Student
 VALUES
-(null, 'Patrick', 'Lenn');
+(NULL, 'Patrick', 'Lenn');
 
 
 
