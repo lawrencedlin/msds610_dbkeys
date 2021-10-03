@@ -27,7 +27,7 @@ VALUES
 -- violation of constraint (null values)
 INSERT INTO Student
 VALUES
-(null, ‘Patrick’, ‘Lenn);
+(NULL, ‘Patrick’, 'Lenn');
 
 -- violation of constraint (duplicate)
 INSERT INTO Student
