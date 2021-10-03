@@ -16,7 +16,7 @@ keys.
 
 We also illustrate their functionality with relevant code examples.
 
-![]('example.svg')
+![]('ex.jpeg')
 
 
 
