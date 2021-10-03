@@ -21,21 +21,21 @@ INSERT INTO Student
 VALUES
 (1, 'Sam', 'Roy'),
 (2, 'John', 'Lennon'),
-(3, ‘Mick’, ‘Race’);
+(3, 'Mick', 'Race');
 
 
 -- violation of constraint (null values)
 INSERT INTO Student
 VALUES
-(NULL, ‘Patrick’, 'Lenn');
+(NULL, 'Patrick', 'Lenn');
 
 -- violation of constraint (duplicate)
 INSERT INTO Student
 VALUES
 (1, 'Sam', 'Roy'),
 (2, 'John', 'Lennon'),
-(3, ‘Mick’, ‘Race’),
-(1, ‘French’, ‘Tim’);
+(3, 'Mick', 'Race'),
+(1, 'French', 'Tim');
 
 -- defining unique key
 CREATE TABLE Student
@@ -47,7 +47,7 @@ UNIQUE KEY (student_id));
 -- for unique key, null values can be inserted
 INSERT INTO Student
 VALUES
-(null, ‘Patrick’, ‘Lenn);
+(null, 'Patrick', 'Lenn');
 
 
 
