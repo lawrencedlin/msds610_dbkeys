@@ -17,7 +17,7 @@ keys:
 
 We also illustrate their functionality with relevant code examples.
 
-![](ex.jpeg)
+![](img/ex.jpeg)
 
 
 
