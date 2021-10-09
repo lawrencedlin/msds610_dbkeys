@@ -6,7 +6,6 @@ first_name varchar,
 last_name varchar,
 PRIMARY KEY (student_id));
 
-
 -- using combination of primary key
 CREATE TABLE weather
 (zip INTEGER,
@@ -15,14 +14,12 @@ Temperature REAL,
 History_avg_temp REAL,
 PRIMARY KEY (zip,date));
 
-
 -- insert query
 INSERT INTO Student
 VALUES
 (1, 'Sam', 'Roy'),
 (2, 'John', 'Lennon'),
 (3, 'Mick', 'Race');
-
 
 -- violation of constraint (null values)
 INSERT INTO Student
@@ -49,8 +46,6 @@ INSERT INTO Student
 VALUES
 (NULL, 'Patrick', 'Lenn');
 
-
-
 -- FOREIGN KEY
 CREATE TABLE Student
 (student_id INTEGER,
@@ -63,7 +58,6 @@ VALUES
 (1, 'Sam', 'Roy'),
 (2, 'John', 'Lennon'),
 (3, 'Mick', 'Race');
-
 
 CREATE TABLE Score
 (id  INTEGER,
