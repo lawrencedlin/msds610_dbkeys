@@ -14,6 +14,9 @@ Every table, also known as a relation, as a name for itself and for each of its 
 ## Entity-relationship model
 When designing a relational database, one of the steps is the Conceptual Database Design. This is when we develop a high-level description of the data to be stored. This is done through the Entity-Relationship (ER) model, where we describe the objects in the database and their relationsihps. An entity is an object that is described using a set of values. A relationship is how entities act upon each other. For example, in the ER diagram below each student and each class. Their relationship is that every student is enrolled in multiple classes.
 
+<img style="float: right;" src="er.svg">
+
+
 ![](img/er.svg)
 
 
