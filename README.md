@@ -7,8 +7,6 @@ Group members:
 - Nishi Mehta
 
 ## A Primer on Relational Databases
-Relational Database:
-
 When we talk about relational databases the first question that arises is why do we need one? A database can store the data in an organized way and operations such as sort can be performed efficiently. There are five main advantages of using a database which is listed below:
 
 - Categorizing the data
