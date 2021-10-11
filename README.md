@@ -35,7 +35,7 @@ Database keys are used to establish and identify relationships between
 tables, uniquely identify tuples within the table, and enforce their integrity constraints. 
 
 - `PRIMARY KEY`: Minimal set of column(s) that uniquely identifies each tuple within a table. Primary keys must be unique and not null. There may only be one primary key in a table
-- `FOREIGN KEY`: The column(s) in a table that is the primary key of another table. Used to establish a relationship between two tables. Foreign keys can be null and there may be foreign keys.
+- `FOREIGN KEY`: The column(s) in a table that is the primary key of another table. Used to establish a relationship between two tables. Foreign keys can be null and there may be multiple foreign keys.
 - `UNIQUE KEY`: Like a primary key, but accepts null values.
 
 
