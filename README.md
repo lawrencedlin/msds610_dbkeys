@@ -9,7 +9,7 @@ Group members:
 ## A Primer on Relational Databases
 Relational Database:
 
-When we talk about relational database the first question that arises is why do we need one? A database can store the data in an organized way and operations such as sort can be performed effeciently. There are five main advantages of using database which are listed as below:
+When we talk about relational databases the first question that arises is why do we need one? A database can store the data in an organized way and operations such as sort can be performed efficiently. There are five main advantages of using a database which is listed below:
 
 - Categorizing the data
 - Accuracy
@@ -17,12 +17,11 @@ When we talk about relational database the first question that arises is why do 
 - Collaboration
 - Easy to use
 
-One of the most common programming language called sql can be used to fetch the data from the database, and hence it is very easy to use. Multiple people can be given access to the same database. We can even limit the access of database thereby maintaining security. Database will always contain the data which is consistent.
+One of the most common programming languages called SQL can be used to fetch the data from the database, and hence it is very easy to use. Multiple people can be given access to the same database. We can even limit the access to database thereby maintaining security. The database will always contain data that is consistent.
 
-There are two different types of database, relational database, and non-relational database. The major difference between both of them is relational database stores the structured data as in before storing the data in tables we know what are the columns, on the other hand the non-relational database stores the unstructured data.
+There are two different types of database, relational database, and non-relational database. The major difference between both of them is relational database stores the structured data as before storing the data in tables we know what are the columns, on the other hand, the non-relational database stores the unstructured data.
 
-A relational database is a collection of tables of data, related by a common field. Every table has a name for itself and for each of its columns. The data type for each column is also specified.
-
+A relational database is a collection of tables of data, related by a common field. Every table has a name for itself and each of its columns. The data type for each column is also specified.
 e.g. A student's name would be a string.
 Each relation is a collection of tuples.
 
